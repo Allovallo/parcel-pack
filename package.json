@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "parcel-pack",
   "scripts": {
-    "start": "parcel src/*.html",
+    "start": "parcel src/*.html --no-cache",
     "build": "parcel build src/*.html --public-url /parcel-pack/"
   },
   "repository": {
